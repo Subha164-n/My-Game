@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Game-specific paths
+Allow: /game
+Allow: /play
+
+# Block any admin or private paths (if any)
+# Disallow: /admin
+# Disallow: /private
+
+# Allow search engines to index the game
+Crawl-delay: 1
